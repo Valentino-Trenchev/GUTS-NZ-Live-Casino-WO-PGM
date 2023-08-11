@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>GUTS - Live Casino Welcome Offer</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex">
+  <meta name="googlebot" content="noindex">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <!--Font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet" />
+  <!--Carousel Library-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <!--Carousel Style-->
+  <style>
+
+    .new_carousel{
+      padding-bottom: 50px;
+      background-color: #000;
+    }
+
+    .games-title-container{
+      padding: 50px;
+    }
+    .games-title-container h2{
+      font-size: clamp(1.5rem, 2vw, 40px);
+      font-family: roboto, sans-serif;
+      font-weight: 900;
+      text-transform: uppercase;
+      text-align: center;
+      color: #ffffff;
+    }
+
+
+
+    .containerSlider{
+      position: relative;
+      margin-top: 20px;
+      max-width: 1400px;
+      margin: auto;
+    }
+    .control{
+      list-style: none;
+    }
+    .tns-item img{
+      border-radius: 10px;
+    }
+    li.prev{
+      position: absolute;
+      left: 0;
+      top: 50%;
+      background-color: rgba(0,0,0,0.5);
+      padding: 20px 5px;
+      transform: translateY(-37px);
+      cursor: pointer;
+    }
+    li.prev:hover, li.next:hover{
+      background-color: rgba(0,0,0,0.2);
+    }
+    li.next{
+      position: absolute;
+      right: 17px;
+      top: 50%;
+      padding: 20px 5px;
+      background-color: rgba(0, 0, 0, 0.5);
+      transform: translateY(-37px);
+      cursor: pointer;
+    }
+
+    @media  screen and (max-width: 1920px) {
+      .containerSlider{
+        max-width: 1340px;
+      }
+      li.next{
+        right: 7px;
+      }
+    }    
+    @media  screen and (max-width: 1600px) {
+      .containerSlider{
+        max-width: 1120px;
+      }
+      li.next{
+        right: 8px;
+      }
+    }
+
+    @media  screen and (max-width: 1440px) {
+      .containerSlider{
+        max-width: 860px;
+      }
+      li.next{
+        right: 1px;
+      }
+    }
+
+    @media  screen and (max-width: 900px) {
+      .containerSlider{
+        max-width: 640px;
+      }
+    }
+    @media  screen and (max-width: 700px) {
+      .carousel_container{
+        max-width: 420px;
+      }
+    }
+    @media  screen and (max-width: 699px) {
+      .containerSlider{
+        max-width: 420px;
+      }
+    }
+    @media screen and (max-width: 400px) {
+      .containerSlider{
+        max-width: 300px;
+        padding: 10px;
+        margin: auto;
+      }
+      .my-slider div{
+        max-width: 150px;
+        
+      }
+      .my-slider img{
+        width: 100%;
+      }
+      .fa-2x{
+        font-size: 1rem;
+      }
+      li.prev{
+        left: auto;
+      }
+      li.next{
+        right: 10px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+<!--LOADER-->
+<div id="loaderContainer">
+  <div id="loader">
+        <img src="guts.svg" alt="">
+    <div id="loaderDots">
+       <div></div>
+       <div class="delay1"></div>
+       <div class="delay2"></div>
+    </div>
+  </div>
+</div>
+  <!-- <img id="ImpressionsPixel" src="https://asia.adform.net/adfserve/?bn=55714442;srctype=4;ord=[timestamp]" border="0" width="1" height="1" alt=""/> -->
+
+  <header class="p-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <img class="logo" src="guts.svg" alt="" />
+        </div>
+        <div class="col-4 text-center">
+          <img class="ortaLogo" src="guts2.svg" alt="" />
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- section one -->
+  <section class="section-a">
+    <div class="background-video-container">
+      <video id="video-bg-1920" class="overlay-video" width="100%" height="100%" autoplay muted loop playsinline>
+        <source src="video-bg-1920-wo-lp-fix-reduced-height.mp4" type="video/mp4">   
+      </video>
+      <video id="video-bg-650" class="overlay-video video-hidden" width="100%" height="100%" autoplay muted loop playsinline>
+        <source src="video-bg-650-wo-lp-fix.mp4" type="video/mp4">   
+      </video>
+    </div>
+    
+  <div id="content-top">
+    <h1 class="main-title mb-0">GET A 100% BONUS   <br>UP TO $1,000</h1>
+    <h5 class="mt-1 mb-3">LIVE CASINO WELCOME OFFER</h5>
+      <a href="https://www.guts.com/nz/signup" target="_blank"><button class="cta btn mt-1">CLAIM OFFER</button></a>
+    <p class="offer-terms">20+ MGA/CRP/108/2004-05. Zecure Gaming limited. Malta Gaming Authority. <br>T&Cs Apply. Play responsibly - Gamblersanonymous.org/</p>
+  </div>
+  </section>
+  <!--STEPS NEW START-->
+  <section class="steps-new-section">
+    <div class="steps-new-wrapper">
+      <div class="single-step-wrapper">
+        <div class="step-new-img-container">
+          <h2>1</h2>
+        </div>
+        <div class="text-container">
+          <h3>SIGN UP TO GUTS</h3>
+          <p>CLICK ON "CLAIM OFFER" ABOVE TO GET STARTED</p>
+        </div>
+      </div>
+      <div class="single-step-wrapper">
+        <div class="step-new-img-container">
+          <h2>2</h2>
+        </div>
+        <div class="text-container">
+          <h3>MAKE A DEPOSIT</h3>
+          <p>WE'LL DOUBLE YOUR FIRST DEPOSIT UP TO $1,000</p>
+          <p> </p>
+        </div>
+      </div>
+      <div class="single-step-wrapper">
+        <div class="step-new-img-container">
+          <h2>3</h2>
+        </div>
+        <div class="text-container">
+          <h3>ENJOY YOUR BONUS</h3>
+          <p>ENJOY OUR LIVE CASINO TABLES WITH YOUR BONUS</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--STEPS NEW END-->
+  <section class="new_carousel">
+    <div class="games-title-container">
+        <h2>Most Played Games</h2>
+    </div>
+    <div class="containerSlider">
+      
+      <div class="my-slider">
+        <div>
+          <a href="#"><img src="s1.jpg" alt=""></a>
+        </div>
+        <div>
+          <a href="#"><img src="s2.jpg" alt=""></a>
+        </div>
+        <div>
+          <a href="#"><img src="s3.jpg" alt=""></a>
+        </div>
+        <div>
+          <a href="#"><img src="s4.jpg" alt=""></a>
+        </div>
+        <div>
+          <a href="#"><img src="s5.jpg" alt=""></a>
+        </div>
+        <div>
+          <a href="#"><img src="s6.jpg" alt=""></a>
+        </div>
+        <div>
+          <a href="#"><img src="s7.jpg" alt=""></a>
+        </div>
+      </div>
+      <ul class="control" id="custom-control">
+        <li class="prev">
+          <i class="fas fa-angle-left fa-2x" style="color: white;"></i>
+        </li>
+        <li class="next">
+          <i class="fas fa-angle-right fa-2x" style="color: white;"></i>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!-- section one -->
+  <!--FOOTER START-->
+  <div id="footer">
+    <div class="leftSide">
+      <div class="floating">
+        <div class="infoPages">
+          <div class="page"><a href="https://www.guts.com/nz/about-us">About Us</a></div>
+          <div class="page"><a href="https://www.guts.com/nz/game-of-guts">Game of Guts</a></div>
+          <div class="page">
+            <a href="https://www.guts.com/nz/terms">Terms &amp; Conditions</a>
+          </div>
+          <div class="page">
+            <a href="https://www.guts.com/nz/cookie-policy">Cookie &amp; Privacy Policy</a>
+          </div>
+          <div class="page"><a href="https://www.guts.com/nz/bonusterms">Bonus Terms</a></div>
+          <div class="page">
+            <a href="https://www.guts.com/nz/betting-rules">Betting Rules</a>
+          </div>
+          <div class="page">
+            <a href="https://support.guts.com/mobile/nz" rel="nofollow noopener" target="_blank">Help</a>
+          </div>
+          <div class="page">
+            <a href="https://www.guts.com/nz/responsible-gaming">Responsible Gaming</a>
+          </div>
+          <div class="page">
+            <a href="https://www.betssongroupaffiliates.com/" rel="nofollow noopener" target="_blank">Affiliates</a>
+          </div>
+        </div>
+      </div>
+      <div class="sinking">
+        <a href="https://www.facebook.com/GutsCasino/" router="[object Object]" rel="nofollow noopener" target="_blank"
+          origin="https://www.guts.com"><span class="isvg loaded social"><svg title="facebook"
+              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 36">
+              <path d="M14.1,17.9h1.6v6.8c0,0.1,0.1,0.2,0.2,0.2h2.8c0.1,0,0.2-0.1,0.2-0.2v-6.7h1.9
+                                          c0.1,0,0.2-0.1,0.2-0.2l0.3-2.5c0-0.1,0-0.1-0.1-0.2c0-0.1-0.1-0.1-0.2-0.1H19v-1.6c0-0.5,0.3-0.7,0.8-0.7c0.1,0,1.4,0,1.4,0
+                                          c0.1,0,0.2-0.1,0.2-0.2v-2.3c0-0.1-0.1-0.2-0.2-0.2h-2c0,0,0,0-0.1,0c-0.3,0-1.5,0.1-2.5,0.9c-1,1-0.9,2.1-0.9,2.3V15h-1.7
+                                          c-0.1,0-0.2,0.1-0.2,0.2v2.5C13.9,17.8,14,17.9,14.1,17.9z"></path>
+            </svg> </span></a>
+      </div>
+    </div>
+    <div class="rightSide">
+      <div class="paymentProviders">
+          <img src="visa.svg" alt="">
+          <img src="Mastercard-logo.svg" alt="">
+          <img src="neteller.svg" alt="">
+          <img src="skrill.svg" alt="">
+          <img src="paysafecard.svg" alt="">
+          <img src="ecoPayz-logo-grayscale-light.png" alt="">
+          <!-- <img src="andmore.png" alt=""> -->
+      </div>
+      <div class="licence">
+        <div class="text">
+          <h6>Live Casino Welcome Offer Terms and Conditions </h6>
+
+          <p class="terms-subtitle">What can I get?</p>
+            
+          <p>
+            100% up to $1,000 Live Casino Bonus<br>
+         </p>
+        
+            <p class="terms-subtitle">The Basic Stuff</p>
+            
+            <p>
+              The offer can be redeemed when you make your first deposit.<br>
+
+              The minimum deposit is $10.<br>
+
+              The Bonus can only be used on Live Casino games.<br>
+
+              The wagering requirement is 40x.<br>
+
+              You can place a maximum bonus bet of $5 per game round when you have the bonus active.<br>
+
+              You need to claim the Bonus within 7 days of registering and use it within 30.<br>
+           </p>
+
+           <p class="terms-subtitle">Who can take part?</p>
+          
+           <p>
+            You must have registered within the last 7 days.<br>
+
+            It must be your first deposit.<br>
+
+            You must be 18 years of age, or the applicable legal age in the jurisdiction in which you reside (whichever is the bigger), to take part in this promotion.<br>
+           </p>
+
+           
+
+           <p class="terms-subtitle">The boring but essential stuff</p>
+
+           <p>
+            Once the Welcome Bonus has been claimed, your funds will be used in the following order: 1. Any funds required to trigger the bonus 2. Bonus funds 3. any remaining funds.<br>
+
+            You can forfeit your bonus amount and winnings at any time and withdraw any remaining balance.<br>
+
+            If you request the withdrawal of your deposit before you have completed the wagering requirements, your bonus amount and respective winnings will be forfeited.<br>
+
+            The Bonus and respective winnings will be forfeited if you haven’t met the wagering requirements within 30 days from when you have received the Bonus.<br>
+
+            You can end your participation in this promotion at any time and keep your remaining deposit and any winnings arising from wagers placed using your deposit.<br>
+
+            Evolution, Red Tiger and NetEnt do not operate in Quebec, British Columbia and Maitoba.<br>
+
+            This offer is only valid once per person, computer, IP address or household.<br>
+
+            Guts reserves the right to change or cancel this promotion at any time and without notice.<br>
+
+            In case of any discrepancy between the English Terms & Conditions and any other language, the English version prevails.<br>
+
+            Guts Standard <a href="https://www.guts.com/nz/terms" target="_blank">Terms and Conditions</a> apply. 
+           </p>
+          </div>
+      </div>
+      <div class="responsible">
+        <div class="responisible-icons-container">
+          <a href="https://authorisation.mga.org.mt/verification.aspx?lang=EN&company=894fb754-8605-4c2d-8bbe-2febe0ac4dd1&details=1">
+            <img class="responsible-icons" src="mga.svg" alt="">
+          </a>
+        </div>
+        <div class="responisible-icons-container">
+            <a href="https://ec.europa.eu/consumers/odr">
+              <img class="responsible-icons" src="https://www.guts.com/_next/image?url=https%3A%2F%2Fassets.guts.com%2Fresponsible-gaming%2Fodr.svg&w=256&q=75" alt="">
+            </a>
+        </div>
+        <div class="responisible-icons-container">
+          <a href="http://www.gamcare.org.uk/">
+            <img class="responsible-icons" src="gamcare.svg" alt="">
+          </a>
+        </div>
+        <div class="responisible-icons-container">
+          <a href="https://www.gamblersanonymous.org">
+            <img class="responsible-icons" src="gamblers-anonymous.svg" alt="">
+          </a>
+        </div>
+        <div class="responisible-icons-container">
+          <a href="https://www.begambleaware.org/">
+            <img class="responsible-icons" src="gamble-aware.svg" alt="">
+          </a>
+        </div>
+        <div class="responisible-icons-container">
+          <a href="https://www.ecogra.org/srs/dispute.php">
+            <img class="responsible-icons" src="ecogra.svg" alt="">
+          </a>
+        </div>
+        <div class="responisible-icons-container">
+          <a href="https://www.guts.com/en/responsible-gaming">
+            <img class="responsible-icons" src="twenty.png" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--FOOTER END-->
+  <!--Script Carousel-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+  <script>
+    var slider = tns({
+    container: '.my-slider',
+    items: 6,
+    nav: false,
+    gutter: 20,
+    mouseDrag: true,
+    controlsPosition: 'bottom',
+    controlsContainer: '#custom-control',
+    responsive: {
+      0:{
+        items: 2
+      },
+      641: {
+
+        items: 2
+      },
+      701: {
+
+        items: 3
+      },
+      901: {
+        items: 4
+      },
+      1441: {
+        items: 5
+      },
+      1601: {
+        items: 6
+      }
+    }
+  });
+  </script>
+
+
+   <!-- Adform Tracking Code BEGIN -->
+<script type="text/javascript">
+  window._adftrack = Array.isArray(window._adftrack) ? window._adftrack : (window._adftrack ? [window._adftrack] : []);
+  window._adftrack.push({
+      HttpHost: 'asia.adform.net',
+      pm: 2253246,
+      divider: encodeURIComponent('|'),
+      pagename: encodeURIComponent('REM - ALL')
+  });
+  (function () { var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'https://s2.adform.net/banners/scripts/st/trackpoint-async.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); })();
+
+</script>
+<noscript>
+  <p style="margin:0;padding:0;border:0;">
+      <img src="https://asia.adform.net/Serving/TrackPoint/?pm=2253246&ADFPageName=REM%20-%20ALL&ADFdivider=|" width="1" height="1" alt="" />
+  </p>
+</noscript>
+<!-- Adform Tracking Code END -->
+
+<script src="https://zz.connextra.com/dcs/tagController/tag/4cf405f9d85c/homepage" async defer></script>
+
+<script>(function(a,b,c,d,e,f){a[e]=a[e]||[];a.x=b.createElement(c);a.y=b.getElementsByTagName(c)[0];x.src=d+"?id="+f;x.setAttribute("data-srtmn",e);y.parentNode.insertBefore(x,y);}(window,document,"script","https://tm.ads.sportradar.com/dist/tag-manager.js","srtmCommands","STM-AAAAKU"));</script>
+
+<!-- Start Quantcast Tag -->
+<script type="text/javascript">
+  window._qevents = window._qevents || [];
+  (function() {
+      var elem = document.createElement('script');
+      elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+      elem.async = true;
+      elem.type = "text/javascript";
+      var scpt = document.getElementsByTagName('script')[0];
+      scpt.parentNode.insertBefore(elem, scpt);
+  })();
+
+  window._qevents.push({
+      "qacct": "p-WhDuvFyhyA5Zv",
+      "labels": "_fp.event.PageView"
+  });
+</script>
+<!-- End Quantcast tag -->
+  <script>
+    var loader = document.getElementById("loaderContainer");
+    window.addEventListener("load", function () {
+      loader.style.display = "none";
+    })
+</script>
+</body>
+
+</html>
