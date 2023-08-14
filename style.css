@@ -364,7 +364,7 @@ h5 {
     background-color: #000;
   }
   .games-title-container{
-    padding: 50px;
+    padding: 30px 20px 20px 20px
   }
   .games-title-container h2{
     font-size: clamp(1.5rem, 2vw, 40px);
