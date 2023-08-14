@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: #000;
+    background-color: #222;
 }
 
 :root {
@@ -298,7 +298,7 @@ h5 {
 
 
 .steps-new-section{
-    background-color: #000000;
+    background-color: #222;
     display: flex;
     padding: 20px 0;
 }
