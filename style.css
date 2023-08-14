@@ -1379,6 +1379,10 @@ h5 {
     .containerSlider{
       max-width: 420px;
     }
+    .games-title-container h2{
+        font-size: 1.8rem;
+    }
+
   }
   @media  screen and (max-width: 699px) {
     .containerSlider{
