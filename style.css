@@ -360,11 +360,11 @@ h5 {
 /* NEW CAROUSEL */
 
 .new_carousel{
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     background-color: #000;
   }
   .games-title-container{
-    padding: 30px 20px 20px 20px
+    padding: 30px 20px 30px 20px;
   }
   .games-title-container h2{
     font-size: clamp(1.5rem, 2vw, 40px);
@@ -1381,6 +1381,9 @@ h5 {
     }
     .games-title-container h2{
         font-size: 1.8rem;
+    }
+    .games-title-container{
+        padding: 30px 20px 20px 20px;
     }
 
   }
